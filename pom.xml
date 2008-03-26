@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0">
 	<modelVersion>4.0.0</modelVersion>
-	<name>Muse</name>
-	<groupId>org.muse</groupId>
-	<artifactId>base</artifactId>
+
+	<name>Test Center</name>
+	<groupId>org.muse.test-center</groupId>
+	<artifactId>test-center</artifactId>
+	<version>1.1.0</version>
 	<packaging>pom</packaging>
 
 	<url>http://etudesproject.org/mneme/index.html</url>
@@ -35,6 +37,8 @@
 	<properties>
 		<mneme.version>1.1.0</mneme.version>
 		<ambrosia.version>1.1.0</ambrosia.version>
+		<sakai.commons.logging.version>1.0.4</sakai.commons.logging.version>
+		<sakai.servletapi.version>2.4</sakai.servletapi.version>
 		<sakai.version>2.5.0</sakai.version>
 		<sakai.plugin.version>2.2</sakai.plugin.version>
 		<sakai.spring.groupId>org.springframework</sakai.spring.groupId>
@@ -896,18 +900,17 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<modules>
-				<module>mneme</module>
+				<!--<module>mneme</module> -->
 				<module>ambrosia</module>
-				<module>reset-pass</module>
 			</modules>
 		</profile>
 	</profiles>
 
 	<build>
-		<directory>m2-target</directory>
-		<outputDirectory>m2-target/classes</outputDirectory>
+		<directory>target</directory>
+		<outputDirectory>target/classes</outputDirectory>
 		<finalName>${artifactId}-${version}</finalName>
-		<testOutputDirectory>m2-target/test-classes</testOutputDirectory>
+		<testOutputDirectory>target/test-classes</testOutputDirectory>
 		<sourceDirectory>src/java</sourceDirectory>
 		<scriptSourceDirectory>src/webapp</scriptSourceDirectory>
 		<testSourceDirectory>src/test</testSourceDirectory>
