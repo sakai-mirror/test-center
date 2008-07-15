@@ -39,7 +39,7 @@
 		<ambrosia.version>1.1.0</ambrosia.version>
 		<sakai.commons.logging.version>1.0.4</sakai.commons.logging.version>
 		<sakai.servletapi.version>2.4</sakai.servletapi.version>
-		<sakai.version>2.5.0</sakai.version>
+		<sakai.version>SNAPSHOT</sakai.version>
 		<sakai.plugin.version>2.2</sakai.plugin.version>
 		<sakai.spring.groupId>org.springframework</sakai.spring.groupId>
 		<sakai.spring.artifactId>spring</sakai.spring.artifactId>
@@ -48,7 +48,7 @@
 		<sakai.spring.mock.version>2.0.6</sakai.spring.mock.version>
 		<sakai.commons.lang.version>2.1</sakai.commons.lang.version>
 		<sakai.commons.fileupload.version>1.1.1</sakai.commons.fileupload.version>
-		<sakai.tomcat.version>tomcat-5.5.23</sakai.tomcat.version>
+		<sakai.tomcat.version>tomcat-5.5.26</sakai.tomcat.version>
 		<sakai.hibernate.groupId>org.hibernate</sakai.hibernate.groupId>
 		<sakai.hibernate.artifactId>hibernate</sakai.hibernate.artifactId>
 		<sakai.hibernate.version>3.2.5.ga</sakai.hibernate.version>
